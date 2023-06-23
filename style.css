@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.color-eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.color-days, .author-section p, .inner-card section p{
+  color: hsl(215, 51%, 70%);
+  
+}
+
+.author-section a {
+  color: white;
+  cursor: pointer;
+}
+
+.author-section a:hover {
+  color: hsl(178, 100%, 50%);
+}
+ h1 {
+  cursor: pointer;
+ }
+
+ h1:hover {
+  color: hsl(178, 100%, 50%);
+ }
+
+ .hover-img {
+  position: absolute;
+  opacity: 1;
+  background-color: aquamarine;
+  height: 100%;
+ }
+
+/* style for extra large desktop viewport */
+
+/* @media screen and (min-width: 1440px) { */
+.card {
+  background-color: hsl(216, 50%, 16%);
+  height: 600px;
+  width: 350px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.inner-card {
+  height: 90%;
+  width: 80%;
+}
+.nft-img {
+  height: 300px;
+  width: 285px;
+  margin-top: 30px;
+  margin-left: -4px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+}
+
+section p {
+  font-size: 18px;
+  color: white;
+}
+
+.info-div {
+  margin-top: -90px;
+}
+
+.eth-section {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.author-section img {
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 80%;
+  border-top: 1px solid rgba(151, 148, 148, 0.403);
+
+}
+.author-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+
+
+
+
+/* } */
